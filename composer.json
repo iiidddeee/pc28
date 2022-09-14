@@ -12,8 +12,11 @@
 
   "autoload":{
         "psr-4":{
-            "Long\\":"/"
-        }
+            "phpcms\\":"phpcms/"
+        },
+      "files": [
+          "pc_base.php"
+      ]
     },
     "minimum-stability": "dev",
     "require": {}
