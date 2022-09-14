@@ -1,7 +1,7 @@
 {
   "name": "laojin/pc28",
   "description": "laojin/pc28",
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "authors": [
     {
       "name": "aaaaaaaaaaa",
@@ -9,20 +9,14 @@
       "role": "Developer"
     }
   ],
-  "support": {
-    "issues": "https://github.com/iiidddeee/pc28/issues"
-  },
-  "require": {
-    "php": ">=7.4.0",
-    "ext-xmlwriter": "*",
-    "ext-dom": "*",
-    "ext-tokenizer": "*"
-  },
-  "autoload": {
-    "classmap": [
-      "src/"
-    ]
-  }
+
+  "autoload":{
+        "psr-4":{
+            "Long\\":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
 }
 
 
