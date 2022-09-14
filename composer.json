@@ -1,0 +1,22 @@
+{
+  "name": "laojin/pc28",
+  "description": "laojin/pc28",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aaaaaaaaaaa",
+      "email": "aaa@aaaaa.de",
+      "role": "Developer"
+    }
+  ],
+
+  "autoload":{
+        "psr-4":{
+            "Long\\":"phpcms/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
+
+
